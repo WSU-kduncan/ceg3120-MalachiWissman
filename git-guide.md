@@ -1,1 +1,2 @@
-This is the guide
+This is the guid
+gude is gurd
