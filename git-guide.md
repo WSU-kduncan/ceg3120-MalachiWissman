@@ -24,8 +24,14 @@
 		- pushing is how you transfer commits from your local repository to a remote repo
 	- git push
 - fetch
+	- downloads commits, files, and refs from a remote repository into your local repo
+		- fetching is what you do when you want to see what everybody else has been working on
+	- git fetch <remote>
 - merge
+	- lets you take the independent lines of development created by git branch and integrate them into a single branch.
+	- git merge <branch>
 - pull
+	- a
 - branch
 - checkout
 - .git folder
