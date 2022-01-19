@@ -34,8 +34,14 @@
 - pull
 	- a
 - branch
+	- a
 - checkout
+	- a
 - .git folder
+	- a
 - .gitignore file
+	- allows you to add files to tell get you no longer want to show being tracked
 - Pull requests
+	- a
 - SSH authentication to repositories
+	- a
