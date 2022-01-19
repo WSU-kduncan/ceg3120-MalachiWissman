@@ -13,8 +13,8 @@
 	- EX: git add <what you want to add>
 - rm
 	- removes individual files or a collection of files
-		- the primary function of git rm is to remove tracked files from the git index
-		- git rm --cached 
+		- the primary function of git rm is to remove tracked files from the git index and will delete teh file entirely
+		- git rm --cached will only remove from the index so you can keep the file but not be tracked
 	- git rm <file>
 - commit
 	- captures a snapshot of the project's currently staged changes
