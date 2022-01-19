@@ -3,5 +3,32 @@
 		- number of local commits that have not been synced with remote (GitHub)
 		- list of files in local folder than are NOT being tracked by git
 		- list of files in local folder that have changes that need to be committed
-	- git status
-
+	- EX: git status
+- clone
+	- is used to clone points to an existing repo and makes a clone or copy of the repo in a new directory, at another location
+	- EX: git clone <repo> <directory> 
+- add
+	- adds a change in the working directory to the staging area
+		-  it tells Git that you want to include updates to a particular file in the next commit
+	- EX: git add <what you want to add>
+- rm
+	- removes individual files or a collection of files
+		- the primary function of git rm is to remove tracked files from the git index
+	- git rm <file>
+- commit
+	- captures a snapshot of the project's currently staged changes
+		- committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to
+	- git commit -am "comment on what change you made during the commit here"
+- push
+	- uploads local repository content to a remote repository
+		- pushing is how you transfer commits from your local repository to a remote repo
+	- git push
+- fetch
+- merge
+- pull
+- branch
+- checkout
+- .git folder
+- .gitignore file
+- Pull requests
+- SSH authentication to repositories
