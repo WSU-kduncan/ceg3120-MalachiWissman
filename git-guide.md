@@ -32,16 +32,23 @@
 	- lets you take the independent lines of development created by git branch and integrate them into a single branch.
 	- git merge <branch>
 - pull
-	- a
+	- used to fetch and download content from a remote repository and immediately update the local repository to match that content
+		- the git pull command is actually a combination of two other commands, git fetch followed by git merge
+	- git pull
 - branch
-	- a
+	- lets you create, list, rename, and delete branches
+		- it doesn’t let you switch between branches or put a forked history back together again
+	- git branch <branch>
 - checkout
-	- a
+	- lets you navigate between the branches created by git branch
+		- checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to			 record all new commits on that branch
+	- git checkout <branch name>
 - .git folder
-	- a
+	- contains all the information that is necessary for your project in version control and all the information about commits, remote repository address, etc
 - .gitignore file
 	- allows you to add files to tell get you no longer want to show being tracked
 - Pull requests
-	- a
+	- lets you tell others about changes you've pushed to a branch in a repository on GitHub
+		- you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch
 - SSH authentication to repositories
-	- a
+	- this is the service used to access private git repositories more securley using ssh
