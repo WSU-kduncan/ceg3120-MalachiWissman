@@ -29,25 +29,26 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    brooklyn_99_quotes = [
-        'I\'m the human form of the 💯 emoji.',
-        'Bingpot!',
-        (
-            'Cool. Cool cool cool cool cool cool cool, '
-            'no doubt no doubt no doubt no doubt.'
-        ),
+    star_wars_quotes = [
+        'I find your lack of faith disturbing.',
+        'Do. Or do not. There is no try.',
+        'There’s always a bigger fish.',
+        'You can’t stop the change, any more than you can stop the suns from setting.',
     ]
 
-    hitchhiker_quotes = [
-        'There is an art, it says, or rather, a knack to flying. The knack lies in learning how to throw yourself at the ground and miss.',
-        'It is a mistake to think you can solve any major problems just with potatoes.',
-        'In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.',
-        'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.',
+    talladega_nights_quotes = [
+        'You Sound Like A Dog With Peanut Butter On The Roof Of Your Mouth.',
+        'Shake And Bake!!',
+        'Well, Let Me Just Quote The Late-Great Colonel Sanders, Who Said... Im Too Drunk To Taste This Chicken.',
+        'Dear 8 Pounds 6 Ounces Newborn Infant Jesus, Dont Even Know A Word Yet.',
+        'Tom Cruise, Use Your Witchcraft On Me To Get The Fire Off Me!',
     ]
 
-    if message.content == 'towel!':
-        #response = random.choice(brooklyn_99_quotes)
-        response = random.choice(hitchhiker_quotes)
+    if message.content == 'gonk!':
+        response = random.choice(star_wars_quotes)
+        await message.channel.send(response)
+    if message.content == 'race!':
+        response = random.choice(talladega_nights_quotes)
         await message.channel.send(response)
 
 client.run(TOKEN)
