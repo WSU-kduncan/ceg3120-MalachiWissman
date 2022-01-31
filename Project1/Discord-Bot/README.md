@@ -1,0 +1,28 @@
+- Setup
+	- How to get API token?
+		- You get the API token from discord by going into Discord Developers (access here: https://discord.com/developers/applications).
+		- You will then go to your bot from the setting on the right hand side. if you do not have a bot setup follow this guide: https://realpython.com/how-to-make-a-discord-bot-python/
+		- Once their you can click the Copy button next to your bots icon and you now have your API token.
+	- Where to put it to work with the code?
+		- To allow the API token to work with your code you must create a .env file in the same directory you have your .py file for your bot in.
+		- In the .env file you post this command 'DISCORD_TOKEN={your-bot-token}' where the '{your-bot-token}' is replaced with the token you copied from the discord bot.
+	- Dependencies/Packages needed
+		- in order to allow all this works yo will need a few packages including the following:
+			- Python3
+			- pip3
+			- discord.py
+			- dontenv
+- Usage
+	- with the changes to the code in place what commands can be typed in the discord server?
+		- In my final code the commands that can be typed are: gonk!, and race!.
+	- what response will these commands provide?
+		- gonk! will provide the user with random Star Wars quotes.
+		- race! will provide the user with random talladega nights quotes.
+- Research
+	- Possible solutions that solve the problem of someone having to keep the bot up and not just always on.
+		- To keep the bot up and running the person with the bot can just always leave an instance up and their pc always on.
+			- This is not practical but it would work.
+		- To keep the bot on you should use the cloud.
+			- You can get a remote hosting service on the cloud that can host your code 24/7 so you do not to need to leave your own computer up.
+			- This can be acheived by using a VPS (Virtual Private Server) to host your bot but it will cost money.
+			- Their are free programs for this kind of thing but they will not be as good as a paid for VPS.
