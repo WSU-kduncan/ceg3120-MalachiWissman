@@ -35,4 +35,5 @@ PART 2
 	- I did this by going to Elastic Ip in EC2 and clicking Allocate Elastic IP address and taging it the approciate tag required.
 	- I then associated it with the instance by clicking the actions tab and associating elastic ip address with my new instance.
 8. Screenshot can be found in Screenshots folder in Project2 in github and will be titled NewInstance.PNG
-9. a  
+9. I changed the host name of my new instance with this command "sudo hostnamectl set-hostname WISSMAN-AMI" and then rebooted the instance for changes to take effect.
+10. Screenshot can be found in Screenshots folder in Project2 in github and will be titled Connection.PNG 
