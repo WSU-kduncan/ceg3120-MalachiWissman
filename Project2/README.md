@@ -2,7 +2,7 @@ PART 1
 
 1. Create a VPC
 	- This can be used to run code, store date, host websites or anything a cloud could do. It is hosted remotely by Amazon or AWS and it paid for.
-	- Screenshot is labled CreateVPC.PNG in Screenshots folder in Project2.
+	- ![photo description](Screenshots/CreateVPC.PNG) 
 2. Create a subnet
 	- This is a peice of a larger network and can be used to divide large networks into smaller ones. We helped our vpc by setting the traffic so it can travel a shorted distance.
 	- Screenshot is labled Subnet.PNG in Screenshots folder in Project2.
