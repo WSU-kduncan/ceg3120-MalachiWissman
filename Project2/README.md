@@ -5,16 +5,16 @@ PART 1
 	- ![photo description](Screenshots/CreateVPC.PNG) 
 2. Create a subnet
 	- This is a peice of a larger network and can be used to divide large networks into smaller ones. We helped our vpc by setting the traffic so it can travel a shorted distance.
-	- Screenshot is labled Subnet.PNG in Screenshots folder in Project2.
+	- ![photo description](Screenshots/Subnet.PNG)
 3. Create an internet gateway
 	- This can transfer communications between an enterprise network and the internet. We used it to provice a target in our VPC route tables for internet traffic.
-	- Screenshot is labled InternetGateway.PNG in Screenshots folder in Project2.
+	- ![photo description](Screenshots/InternetGateway.PNG) 
 4. Create a route table
 	- This is used to keep track of paths and determine which way to forward traffic. We used it exactly for this in our VPC to control where traffic goes.
-	- Screenshot is labled RouteTable.PNG in Screenshots folder in Project2.
+	- ![photo description](Screenshots/RouteTable.PNG)
 5. Create a security group
 	- This is basically a virtual firewall for incomming and outgoing traffic. We used it to setup inbound rules for our VPC.
-	- Screenshot is labled SecurityGroup.PNG in Screenshots folder in Project2.
+	- ![photo description](Screenshots/SecurityGroup.PNG)
 PART 2
 
 1. Create a new instance. 
@@ -34,6 +34,6 @@ PART 2
 7. Reserve and Elastic IP address.
 	- I did this by going to Elastic Ip in EC2 and clicking Allocate Elastic IP address and taging it the approciate tag required.
 	- I then associated it with the instance by clicking the actions tab and associating elastic ip address with my new instance.
-8. Screenshot can be found in Screenshots folder in Project2 in github and will be titled NewInstance.PNG
+8. ![photo description](Screenshots/NewInstance.PNG)
 9. I changed the host name of my new instance with this command "sudo hostnamectl set-hostname WISSMAN-AMI" and then rebooted the instance for changes to take effect.
-10. Screenshot can be found in Screenshots folder in Project2 in github and will be titled Connection.PNG 
+10. ![Photo of the Final Connection](Screenshots/Connection.PNG) 
