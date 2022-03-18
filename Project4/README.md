@@ -13,4 +13,5 @@
 		- Sudo reboot will restart the webservers.
 		- Resources: https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/, and Lecture recordings.
 	-webServer1:![photo description](Screenshots/webServer1.PNG)
+
 	-webServer2:![photo description](Screenshots/webServer2.PNG)
